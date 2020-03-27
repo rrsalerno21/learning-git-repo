@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="1-2_class-Assignment-Style.css">
 </head>
 <body>
     <!--Site header-->
@@ -12,25 +13,29 @@
     </header>
 
     <!-- h2: Tier-2 Headline (Not as important as h1 header, but more than one allowed). -->
-    <h2>Rocky Salerno</h2>
-
-    <!-- Image with link -->
-    <img src="rocky-photo.jpg" width="300px" alt="profile photo of rocky">
-
-    <p>
-        Hi my name is Rocky and I like to snowboard, surf, drink good beer, eat good food, hang with friends, go on adventures, play video games, learn programming, make money, and much much more.
-    </p>
-
-    <!-- Section 2: Contact Info -->
-    <section>
-        <h2>Contact Info</h2>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:rrsalerno21@gmail.com">rrsalerno21@gmail.com</a></li>
-            <li><strong>Github:</strong><a>rrsalerno21</a></li>
-            <li><strong>Portfolio:</strong><a href="#">coming soon, baby!</a></li>
-        </ul>
-
-    </section>
+    <div class="flex">
+        <section id="main-bio" class="container">
+            <h2>Rocky Salerno</h2>
     
+         <!-- Image with link -->
+            <img id="bio-image" src="rocky-photo.jpg"  width="200px" alt="profile photo of rocky">
+    
+            <p>
+            Hi my name is Rocky and I like to snowboard, surf, drink good beer, eat good food, hang with friends, go on adventures, play video games, learn programming, make money, and much much more.
+            </p>
+    
+        </section>
+    
+        <!-- Section 2: Contact Info -->
+        <section id="contact-info" class="container">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:rrsalerno21@gmail.com">rrsalerno21@gmail.com</a></li>
+                <li><strong>Github:</strong><a href="https:www.github.com">rrsalerno21</a></li>
+                <li><strong>Portfolio:</strong><a href="#">coming soon, baby!</a></li>
+            </ul>
+    
+        </section>
+    </div>
 </body>
 </html>
