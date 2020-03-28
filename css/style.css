@@ -1,0 +1,95 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Style all body */
+body {
+    background: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.0em;
+}
+
+/* Change all link colors to red */
+a {
+    color: #d21034;
+}
+
+/* Add background color to header */
+header {
+    background-color: #333333;
+}
+
+/* Style h1 header tag */
+h1 {
+    color: #eeeeee;
+    font-size: 28px;
+    text-align: center;
+    margin: 0px 0px 10px;
+    padding: 15px;
+}
+
+
+/* Style h2 header tag */
+h2 {
+    font-size: 24px;
+}
+
+/* Set container width and margins */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Add float property to section id's and photo */
+#main-bio, #contact-info, #bio-image {
+    float: left;
+}
+
+/* Adjust width and add margin to bio-image */
+#bio-image {
+    width: 200px;
+    margin-right: 10px;
+}
+
+/* Set width for main-bio section */
+#main-bio {
+    width:70%;
+    
+}
+
+/* Set width for contact info section */
+#contact-info {
+    width: 30%;
+}
+
+/* --------------------- Button Styling ---------------- */
+
+/* Add padding to button */
+button {
+    padding: 5px;  
+}
+
+/* Remove underline for link and change font family */
+button a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* Add hover effects to button */
+button:hover {
+    transition: 0.5s;
+    background: #d21034;
+    color: #ffffff;
+    padding: 7px;
+}
+
+/* Add button link hover color */
+button a:hover {
+    color: #ffffff;
+}
+
+
+

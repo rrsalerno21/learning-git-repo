@@ -1,0 +1,77 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*------------------MY CSS-------------------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #efeee7;
+}
+
+header {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0px;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+div {
+    flex-basis: 300px
+}
+
+
+
+#bio-image {
+    width: 300px;
+}
+
+#contact-background {
+    background: #f3f3f3;
+    height: 100px;
+    border-radius: 5px;
+    padding: 2px 20px 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+/* Box Shadow Affect */
+.box-shadow {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* -------------- Button Styling ----------- */
+
+/* Add padding to button */
+button {
+    padding: 5px;  
+}
+
+/* Remove underline for link and change font family */
+button a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* Add hover effects to button */
+button:hover {
+    transition: 0.5s;
+    background: #d21034;
+    color: #ffffff;
+    padding: 7px;
+}
+
+/* Add button link hover color */
+button a:hover {
+    color: #ffffff;
+}
